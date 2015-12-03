@@ -1,0 +1,9 @@
+Nom du fichier photo : photo.png
+Nom : Jonis
+Prenom : Nicolas
+Dare de naissance : 23/06/1970
+Adresse : Place de la Mairie - 48000 Mende
+Email : gogogo@gmail.com
+Biographie : Passionnante
+Projet Pro Future : Du boulot
+hobbies : Bd, Rando, Animaux, Jonglage, Glandouille
