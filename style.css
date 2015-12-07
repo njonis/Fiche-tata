@@ -1,28 +1,27 @@
 header{
-  text-align: center;
+  /*text-align: center;*/
   background-color:black;
-  background-size: auto;
+  /*background-size: auto;*/
   color:#71b43d;
   font-size: 30px;
+  height: 100px;
 }
 
 .grise{
   background-color:#f7f7f7;
-  background-image: url(http://codincamp.fr/static/img/about/chrono4.png);
+  /*background-image: url(http://codincamp.fr/static/img/about/chrono4.png);*/
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 li{
-  font-size: 14 px;
-  line-height: 1.75;
   list-style-type: none;
 }
 
 body{
 font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-text-align: center;
-background-image: url(http://www.gite-loubreyrou-cevennes.com/img/cevennes/cevennes-7.jpg);
+/*text-align: center;*/
+/*background-image: url(http://www.gite-loubreyrou-cevennes.com/img/cevennes/cevennes-7.jpg);*/
+margin: 0;
 }
 
 h2{
@@ -31,4 +30,30 @@ margin-top: 0;
 margin-bottom: 15px;
 text-transform: uppercase;
 font-weight: 700;
+}
+
+.menu li{
+  float: left;
+  padding: 25px 25px 25px 25px;
+  color:white;
+ }
+
+.menu{
+  display: inline;
+}
+
+ span{
+   float:left;
+   margin-right: 8px;
+   padding: 25px 25px 25px 25px;
+ }
+
+nav{
+  width: 960px;
+  margin: auto;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
 }
