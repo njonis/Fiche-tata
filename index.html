@@ -1,0 +1,108 @@
+<!doctype html>
+  <html lang="fr">
+    <head>
+     	 <meta charset="utf-8">
+     	 <title>NOM PRENOM | Codi n Camp - Promo 1</title>
+    	 <link rel="stylesheet" href="style.css">
+   	 <!-- <<script src="/script.js"></script> -->
+    </head>
+    <body>
+      <!-- <img src="http://codincamp.fr/static/img/logos/codincamp.png"> -->
+       <header>
+              <nav>
+                <span>Jonis Nicolas</span>
+                <ul class="menu">
+                  <li> <a href ="#moi"> Moi </a> </li>
+                  <li> <a href ="#Biographie"> Bio</a> </li>
+                  <li> <a href ="#Objectifs"> Objectifs </a> </li>
+                  <li> <a href ="#Projets"> Projets </a> </li>
+                  <li> <a href ="#Contact"> Contact</a> </li>
+                </ul>
+              </nav>
+      </header>
+       <section class="grise" >
+         <div class="largeur">
+          <div class="donnees_perso">
+           <h4> A propos de moi </h4>
+            <label> Nom : </label> Jonis<br />
+            <label> Prénom : </label> Nicolas<br />
+            <label> Ville : </label> St Etienne du Valdonnez<br />
+            <label> Age : </label> 45 ans<br />
+            <label> Github: </label><a href="https://github.com/njonis"> njonis</a>
+          </div>
+          <div class="portrait">
+            <img src="https://placehold.it/150x200">
+          </div>
+        </div>
+      </section>
+      <section id="Biographie">
+        <div class="largeur">
+        <h2> Biographie </h2>
+            <p> Je suis né par un beau matin d'été en 1970 et je mourrai le plus tard possible </p>
+        </div>
+      </section>
+      <section class="grise" id="Objectifs">
+          <div class="largeur">
+        <h2> Objectifs après Codi n Camp </h2>
+            <p> Moi vouloir travail </p>
+        </div>
+      </section>
+      <section id="Projets">
+        <div class="largeur">
+        <h2> Projets </h2>
+        <div class="donnees_perso">
+            <h3>Réalisés</h3>
+                <ul>
+                    <li> Invention de la poudre </li>
+                    <li> Invention du fil a couper le beurre </li>
+                    <li> Bien vieillir </li>
+                </ul>
+              </div>
+              <div class="donnees_perso">
+            <h3>En cours</h3>
+                <ul>
+                    <li> Sauver le monde (mais moi en premier) </li>
+                    <li> CV en ligne </li>
+                </ul>
+              </div>
+        </div>
+       </section>
+      <section class="grise">
+        <div class="largeur">
+        <h2> Loisirs</h2>
+             <ul>
+                 <li> BD </li>
+                 <li> Randonnée </li>
+                 <li> Animaux </li>
+                 <li> Jonglage </li>
+             </ul>
+           </div>
+       </section>
+        <div class="largeur">
+       <section id="Contact">
+       <h1> Formulaire de contact </h1>
+        <form action="/back/contact" method="post">
+        <input type="hidden" name="to" value="tchiptchap31@yahoo.fr"/>
+          <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+          </div>
+          <div>
+            <label for="courriel">Courriel :</label>
+            <input type="email" name="from" id="courriel" />
+          </div>
+          <div>
+            <label for="message">Message :</label>
+            <textarea  name="body"id="message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Envoyer votre message</button>
+        </div>
+        </div>
+
+        </form>
+      </section>
+
+        <footer>FOOTER © - Còdi n Camp - 2015 - CC BY SA-NC</footer>
+    </body>
+  </html>

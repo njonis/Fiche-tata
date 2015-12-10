@@ -10,18 +10,22 @@ header{
 .grise{
   background-color:#f7f7f7;
   /*background-image: url(http://codincamp.fr/static/img/about/chrono4.png);*/
-  font-size: 30px;
 }
 
 li{
   list-style-type: none;
 }
 
+ul{
+  padding: 0px;
+}
+
 body{
 font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /*text-align: center;*/
 /*background-image: url(http://www.gite-loubreyrou-cevennes.com/img/cevennes/cevennes-7.jpg);*/
-margin: 0;
+margin:0;
+font-size: 18px;
 }
 
 h2{
@@ -40,6 +44,10 @@ font-weight: 700;
 
 .menu{
   display: inline;
+}
+
+h4{
+  font-size: 30px;
 }
 
  span{
@@ -74,4 +82,86 @@ display: block;
 #essai{
   width: 960px;
   margin: auto;
+}
+
+.largeur{
+  width: 960px;
+  margin: auto;
+
+}
+
+.donnees_perso{
+float: left;
+width: 50%;
+text-align: center;
+}
+
+.portrait{
+float: left;
+width: 50%;
+text-align: center;
+padding-top: 30px;
+}
+
+ {
+  border: 1px dashed blue;
+}
+
+section{
+  min-height: 300px;
+}
+
+div{
+  min-height: 30px;
+}
+
+footer{
+  text-align: center;
+  font-size: 14px;
+}
+
+.zoomImage{
+  zoom:150%;
+  -moz-transform: scale(2);
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #000;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 10em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+}
+
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+      margin-left: .5em;
+}
+
+#Contact{
+  text-align: center;
 }
